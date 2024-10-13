@@ -1,0 +1,46 @@
+/* src/pages/Profile/Profile.css */
+
+.activities-label {
+    font-weight: bold;
+    margin: 16px 0;
+    display: block;
+}
+
+.activities-section {
+    padding: 16px;
+}
+
+ion-card {
+    margin: 16px;
+    padding: 16px;
+}
+
+ion-item {
+    --inner-padding-end: 0;
+    --inner-padding-start: 0;
+    --padding-start: 16px;
+}
+
+ion-avatar img {
+    border-radius: 50%;
+}
+
+ion-chip {
+    font-size: 0.9rem;
+    margin: 4px;
+}
+
+.ion-segment {
+    margin: 16px 0;
+}
+
+ion-content.ion-padding {
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --padding-top: 16px;
+    --padding-bottom: 16px;
+}
+
+ion-note {
+    font-size: 0.8rem;
+}
